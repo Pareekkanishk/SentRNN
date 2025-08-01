@@ -10,8 +10,17 @@ The project includes:
 
 ---
 
+## 📸 Screenshot
+
+![App Screenshot](assets/screenshot.png)
+
+---
+
+
+---
+
 ## 📁 Project Folder Structure
-bash
+```bash
 📦SENTRNN/
 ├── simplernn.ipynb       # Training notebook
 ├── predictions.ipynb      # Testing + Prediction notebook
@@ -19,7 +28,7 @@ bash
 ├── simple_rnn_imdb.h5       # Trained RNN model
 ├── requirements.txt       # Python dependencies
 ├── README.md              # Project documentation
-
+```
 
 ## 🧠 Model Overview
 
@@ -46,12 +55,12 @@ The Streamlit app allows users to:
 ## 💾 Setup Instructions
 
 ### Clone the Repository
-bash
+```bash
 git clone https://github.com/Pareekkanishk/SentRNN
-
+```
 
 ### Set up a Virtual Environment
-bash
+```bash
 # Create virtual env
 python -m venv venv
 
@@ -60,16 +69,18 @@ source venv/bin/activate
 
 # Activate on Windows
 venv\Scripts\activate
-
+```
 
 ## Install Dependencies
-bash
+```bash
 pip install -r requirements.txt
+```
 
 
 ### Run the Streamlit App
-bash
+```bash
 streamlit run app.py
+```
 
 
 ## 📚 Dataset
@@ -91,4 +102,4 @@ The IMDB dataset used here is a preprocessed binary sentiment dataset built into
 
 You're welcome to explore the app by visiting the link provided below.
 
-👉 [Try Yourself](https://imdb-sentiment-classifier-kaowhvyzkasbhy2vuhlcmp.streamlit.app/)
+👉 [Try Yourself](https://sentrnn-rwkvkbxkcntots7dmpbbsh.streamlit.app/)

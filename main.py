@@ -15,9 +15,9 @@ model = load_model('simple_rnn_imdb.h5')
 # Function to preprocess user input
 def preprocess_text(text):
     words = text.lower().split()
-    encoded_review = [word_index.get(word, 2) + 3 for word in words]
+    encoded_review = [word_index.get(word, 2) for word in words]  
     padded_review = sequence.pad_sequences([encoded_review], maxlen=500)
-    return padded_review
+    return padded_review.astype('int32')
 
 
 import streamlit as st
