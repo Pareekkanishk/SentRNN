@@ -102,4 +102,4 @@ The IMDB dataset used here is a preprocessed binary sentiment dataset built into
 
 You're welcome to explore the app by visiting the link provided below.
 
-👉 [Try Yourself](https://sentrnn-rwkvkbxkcntots7dmpbbsh.streamlit.app/)
+👉 [Try Yourself](https://sentrnn-c3dkdujestsu96u3n3svki.streamlit.app/)
